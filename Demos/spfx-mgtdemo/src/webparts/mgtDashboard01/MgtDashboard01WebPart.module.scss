@@ -1,0 +1,61 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.mgtDashboard01 {
+  .container {
+    
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+     
+    padding: 20px;
+
+    
+.ms-Button{
+
+  box-sizing:border-box;margin:0;padding:0;box-shadow:none;font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;-webkit-font-smoothing:antialiased;color:#333;font-size:14px;font-weight:400;background-color:#f4f4f4;border:1px solid #f4f4f4;cursor:pointer;display:inline-block;height:32px;min-width:80px;padding:4px 20px 6px}
+.ms-Button:focus{background-color:#eaeaea;border-color:#0078d7;outline:1px solid transparent}
+.ms-Button:focus .ms-Button-label{color:#000}
+.ms-Button:active{background-color:#0078d7;border-color:#0078d7}
+.ms-Button.is-hidden{display:none}
+.ms-Button:hover{background-color:#eaeaea;border-color:#eaeaea}
+.ms-Button:hover .ms-Button-label{color:#000}
+
+.ms-Select{
+  border:1px solid #c8c8c8;
+  height: 32px;
+  padding: 5px 32px 0 10px;
+  margin-bottom:10px;
+  font-family:Segoe UI WestEuropean,Segoe UI,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+
+}
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg6;
+    @include ms-xl6;
+    
+    
+  }
+
+  .title {
+    @include ms-font-xl;
+    color:#333;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+
+
+}
+

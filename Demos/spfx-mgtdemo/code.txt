@@ -1,0 +1,18 @@
+<mgt-get resource="/groups" id="mgtGroup" scope="group.read.all" version="v1.0">
+              <template id="td" data-type="default">
+              <select id="selGroups" class="${styles["ms-Select"]}"   >
+              <option data-for="group of value" value={{group.id}}>{{group.displayName}}</option>
+              </select>              
+              </template>
+</mgt-get>
+              
+        <button  id="btnGetMembers" class="${styles["ms-Button"]}" type="button">
+            <span class="ms-Button-label">Get Members</span> 
+        </button>
+<div id="showgrpmembers"></div>
+
+// SECOND COLUMN
+<mgt-people-picker id="mgtpicker" ></mgt-people-picker>
+                <button  id="btnAddName" class="${styles["ms-Button"]}" type="button">
+                <span class="ms-Button-label"> Add Member</span> 
+              </button>
